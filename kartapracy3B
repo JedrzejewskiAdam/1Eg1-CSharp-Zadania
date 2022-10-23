@@ -1,0 +1,77 @@
+//zadanie 1
+Console.WriteLine("zadanie 1:");
+for(int i = 0;i<31;i++)
+  Console.Write(i + " ");
+
+//zadanie 2
+Console.WriteLine("zadanie 2:");
+for(int i = 1;i<10;i += 2)
+  Console.WriteLine(i*i);
+//zadanie 3
+Console.WriteLine("zadanie 3:");
+for(int i = 1137;i<10000;i+=379)
+  Console.WriteLine(i);
+//zadanie 4
+Console.WriteLine("zadanie 4:");
+for(int i = 100;i<1000;i++)
+{
+  if(i%5==0 || i%6==0 || i%11==0)
+    Console.Write(i + " ");
+}
+//zadanie 5
+Console.WriteLine("zadanie 5:");
+int n = int.Parse(Console.ReadLine());
+Console.WriteLine();
+int suma = 0;
+for(int i = 0;i<n;i++)
+  suma += int.Parse(Console.ReadLine());
+Console.WriteLine(suma);
+//zadanie 6
+Console.WriteLine("zadanie 6:");
+int k = int.Parse(Console.ReadLine());
+suma = 0;
+for(int i = 0;i<k*2;i+=2)
+  suma += i;
+Console.WriteLine(suma);
+//zadanie 7
+Console.WriteLine("zadanie 7:");
+int m = int.Parse(Console.ReadLine());
+suma = 0;
+for(int i = 11;i<m*2+11;i+=2)
+  suma += i;
+Console.WriteLine(suma);
+//zadanie 8
+Console.WriteLine("zadanie 8:");
+Console.Write("w0: ");
+int W0 = int.Parse(Console.ReadLine());
+Console.Write("L: ");
+float L = float.Parse(Console.ReadLine());
+Console.WriteLine(L);
+double wartosc = W0;
+for(double i = 0;i<L;i+=0.5)
+{
+  for(int j = 0;j<6;j++)
+    wartosc+=wartosc*(0.06/12);
+}
+Console.WriteLine(wartosc);
+//zadanie 9
+Console.WriteLine("zadanie 9:");
+n = int.Parse(Console.ReadLine());
+suma = 0;
+for(int i = 21;i<=(n-1)*100+21;i+=100)
+  suma += i;
+Console.WriteLine(suma);
+//zadanie 10
+Console.WriteLine("zadanie 10:");
+for(int i = 0;i<32;i++)
+{
+  int a = i*i;
+  if(i<10)
+    while(a>=10)
+      a-=10;
+  else
+    while(a>=100)
+      a-=100;
+  if(a==i)
+}
+    Console.WriteLine(i*i);v
