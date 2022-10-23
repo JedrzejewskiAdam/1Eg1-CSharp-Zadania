@@ -74,4 +74,4 @@ for(int i = 0;i<32;i++)
       a-=100;
   if(a==i)
 }
-    Console.WriteLine(i*i);v
+Console.WriteLine(i*i);v
