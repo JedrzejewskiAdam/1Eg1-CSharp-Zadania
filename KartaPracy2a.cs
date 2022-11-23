@@ -69,7 +69,7 @@ int abcd = int.Parse(Console.ReadLine("Podaj bok"));
 int abcde = int.Parse(Console.ReadLine("Podaj bok"));
 if ((abc + abcd)>abcde)
 {
-    Console.WriteLine("jest szansa na ********** szympansa");
+    Console.WriteLine("jest szansa");
 }
 if((abc + abcd)<abcde)
 {
